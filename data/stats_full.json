@@ -1,0 +1,2269 @@
+{
+ "set": "full",
+ "e_tau": 0.79,
+ "n_customers": 12200,
+ "cells": {
+  "N_genel": 10000,
+  "N_adas_alias": 100,
+  "P_tr_arap|D_ayni": 100,
+  "N_yakin": 400,
+  "P_hata|D_ayni": 100,
+  "N_adas_kiril_tr": 100,
+  "N_adas_tr_arap": 100,
+  "P_tr_arap|D_kucuk": 100,
+  "P_sira|D_ayni": 100,
+  "P_alias|D_kucuk": 100,
+  "P_exact|D_kucuk": 100,
+  "P_hata|D_kucuk": 100,
+  "P_kiril_tr|D_ayni": 100,
+  "N_adas_sira": 100,
+  "N_adas_exact": 100,
+  "P_kiril_tr|D_kucuk": 100,
+  "P_alias|D_ayni": 100,
+  "P_exact|D_ayni": 100,
+  "N_adas_hata": 100,
+  "P_sira|D_kucuk": 100
+ },
+ "alerts_F": 5823,
+ "alerts_per_customer_F": 0.4773,
+ "alerts_FE": 7383,
+ "alerts_per_customer_FE": 0.6052,
+ "stage1_recall": {
+  "F": {
+   "ALL": {
+    "hit": 1117,
+    "n": 1200,
+    "rate": [
+     0.9308,
+     0.9151,
+     0.9439
+    ]
+   },
+   "P_alias": {
+    "hit": 200,
+    "n": 200,
+    "rate": [
+     1.0,
+     0.9812,
+     1
+    ]
+   },
+   "P_alias|D_ayni": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_alias|D_kucuk": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_exact": {
+    "hit": 200,
+    "n": 200,
+    "rate": [
+     1.0,
+     0.9812,
+     1
+    ]
+   },
+   "P_exact|D_ayni": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_exact|D_kucuk": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_hata": {
+    "hit": 198,
+    "n": 200,
+    "rate": [
+     0.99,
+     0.9643,
+     0.9973
+    ]
+   },
+   "P_hata|D_ayni": {
+    "hit": 98,
+    "n": 100,
+    "rate": [
+     0.98,
+     0.93,
+     0.9945
+    ]
+   },
+   "P_hata|D_kucuk": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_kiril_tr": {
+    "hit": 181,
+    "n": 200,
+    "rate": [
+     0.905,
+     0.8564,
+     0.9383
+    ]
+   },
+   "P_kiril_tr|D_ayni": {
+    "hit": 92,
+    "n": 100,
+    "rate": [
+     0.92,
+     0.85,
+     0.9589
+    ]
+   },
+   "P_kiril_tr|D_kucuk": {
+    "hit": 89,
+    "n": 100,
+    "rate": [
+     0.89,
+     0.8137,
+     0.9375
+    ]
+   },
+   "P_sira": {
+    "hit": 200,
+    "n": 200,
+    "rate": [
+     1.0,
+     0.9812,
+     1
+    ]
+   },
+   "P_sira|D_ayni": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_sira|D_kucuk": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_tr_arap": {
+    "hit": 138,
+    "n": 200,
+    "rate": [
+     0.69,
+     0.6228,
+     0.75
+    ]
+   },
+   "P_tr_arap|D_ayni": {
+    "hit": 68,
+    "n": 100,
+    "rate": [
+     0.68,
+     0.5834,
+     0.7633
+    ]
+   },
+   "P_tr_arap|D_kucuk": {
+    "hit": 70,
+    "n": 100,
+    "rate": [
+     0.7,
+     0.6041,
+     0.7811
+    ]
+   }
+  },
+  "FE": {
+   "ALL": {
+    "hit": 1139,
+    "n": 1200,
+    "rate": [
+     0.9492,
+     0.9352,
+     0.9602
+    ]
+   },
+   "P_alias": {
+    "hit": 200,
+    "n": 200,
+    "rate": [
+     1.0,
+     0.9812,
+     1
+    ]
+   },
+   "P_alias|D_ayni": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_alias|D_kucuk": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_exact": {
+    "hit": 200,
+    "n": 200,
+    "rate": [
+     1.0,
+     0.9812,
+     1
+    ]
+   },
+   "P_exact|D_ayni": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_exact|D_kucuk": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_hata": {
+    "hit": 199,
+    "n": 200,
+    "rate": [
+     0.995,
+     0.9722,
+     0.9991
+    ]
+   },
+   "P_hata|D_ayni": {
+    "hit": 99,
+    "n": 100,
+    "rate": [
+     0.99,
+     0.9455,
+     0.9982
+    ]
+   },
+   "P_hata|D_kucuk": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_kiril_tr": {
+    "hit": 192,
+    "n": 200,
+    "rate": [
+     0.96,
+     0.9231,
+     0.9796
+    ]
+   },
+   "P_kiril_tr|D_ayni": {
+    "hit": 97,
+    "n": 100,
+    "rate": [
+     0.97,
+     0.9155,
+     0.9897
+    ]
+   },
+   "P_kiril_tr|D_kucuk": {
+    "hit": 95,
+    "n": 100,
+    "rate": [
+     0.95,
+     0.8882,
+     0.9785
+    ]
+   },
+   "P_sira": {
+    "hit": 200,
+    "n": 200,
+    "rate": [
+     1.0,
+     0.9812,
+     1
+    ]
+   },
+   "P_sira|D_ayni": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_sira|D_kucuk": {
+    "hit": 100,
+    "n": 100,
+    "rate": [
+     1.0,
+     0.963,
+     1.0
+    ]
+   },
+   "P_tr_arap": {
+    "hit": 148,
+    "n": 200,
+    "rate": [
+     0.74,
+     0.6751,
+     0.7959
+    ]
+   },
+   "P_tr_arap|D_ayni": {
+    "hit": 72,
+    "n": 100,
+    "rate": [
+     0.72,
+     0.6251,
+     0.7986
+    ]
+   },
+   "P_tr_arap|D_kucuk": {
+    "hit": 76,
+    "n": 100,
+    "rate": [
+     0.76,
+     0.6677,
+     0.8331
+    ]
+   }
+  }
+ },
+ "truth_counts": {
+  "F": {
+   "alarmsiz": 9358,
+   "discount": 1653,
+   "escalate": 1117,
+   "belirsiz": 72
+  },
+  "FE": {
+   "alarmsiz": 8830,
+   "discount": 2155,
+   "escalate": 1139,
+   "belirsiz": 76
+  }
+ },
+ "disposition": {
+  "F": {
+   "R0_hepsi": {
+    "miss": [
+     0.0,
+     0,
+     0.0034
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     1.0,
+     0.9977,
+     1
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 1653,
+    "workload_per_1000": 135.49,
+    "cells": {
+     "N_adas_alias": [
+      100,
+      100
+     ],
+     "N_adas_exact": [
+      99,
+      99
+     ],
+     "N_adas_hata": [
+      100,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      93,
+      93
+     ],
+     "N_adas_sira": [
+      100,
+      100
+     ],
+     "N_adas_tr_arap": [
+      77,
+      77
+     ],
+     "N_genel": [
+      776,
+      776
+     ],
+     "N_yakin": [
+      308,
+      308
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      0,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      0,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      0,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      89
+     ],
+     "P_sira|D_ayni": [
+      0,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      0,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      0,
+      70
+     ]
+    }
+   },
+   "R1_kati": {
+    "miss": [
+     0.4906,
+     0.4614,
+     0.5199
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     0.1803,
+     0.1625,
+     0.1995
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 298,
+    "workload_per_1000": 24.43,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      93
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      77
+     ],
+     "N_genel": [
+      0,
+      776
+     ],
+     "N_yakin": [
+      298,
+      308
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      100,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      99,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      99,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      89,
+      89
+     ],
+     "P_sira|D_ayni": [
+      0,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      99,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      62,
+      70
+     ]
+    }
+   },
+   "R2_politika": {
+    "miss": [
+     0.0179,
+     0.0116,
+     0.0275
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     0.1803,
+     0.1625,
+     0.1995
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 298,
+    "workload_per_1000": 24.43,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      93
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      77
+     ],
+     "N_genel": [
+      0,
+      776
+     ],
+     "N_yakin": [
+      298,
+      308
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      5,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      3,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      1,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      5,
+      89
+     ],
+     "P_sira|D_ayni": [
+      0,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      5,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      1,
+      70
+     ]
+    }
+   },
+   "deepseek-v4.1-flash": {
+    "miss": [
+     0.0188,
+     0.0123,
+     0.0286
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     0.1246,
+     0.1096,
+     0.1414
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 206,
+    "workload_per_1000": 16.89,
+    "cells": {
+     "N_adas_alias": [
+      12,
+      100
+     ],
+     "N_adas_exact": [
+      3,
+      99
+     ],
+     "N_adas_hata": [
+      17,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      18,
+      93
+     ],
+     "N_adas_sira": [
+      9,
+      100
+     ],
+     "N_adas_tr_arap": [
+      7,
+      77
+     ],
+     "N_genel": [
+      83,
+      776
+     ],
+     "N_yakin": [
+      57,
+      308
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      5,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      3,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      6,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      89
+     ],
+     "P_sira|D_ayni": [
+      1,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      5,
+      70
+     ]
+    }
+   },
+   "deepseek-v4.1-flash|eksik=discount": {
+    "miss": [
+     0.0197,
+     0.013,
+     0.0296
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     0.0296,
+     0.0225,
+     0.039
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 49,
+    "workload_per_1000": 4.02,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      93
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      77
+     ],
+     "N_genel": [
+      3,
+      776
+     ],
+     "N_yakin": [
+      46,
+      308
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      5,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      3,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      6,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      89
+     ],
+     "P_sira|D_ayni": [
+      1,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      6,
+      70
+     ]
+    }
+   },
+   "gemma-4-31b": {
+    "miss": [
+     0.0152,
+     0.0095,
+     0.0242
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     0.0042,
+     0.0021,
+     0.0087
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 7,
+    "workload_per_1000": 0.57,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      93
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      77
+     ],
+     "N_genel": [
+      1,
+      776
+     ],
+     "N_yakin": [
+      6,
+      308
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      2,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      0,
+      100
+     ],
+     "P_hata|D_ayni": [
+      2,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      5,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      89
+     ],
+     "P_sira|D_ayni": [
+      6,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      1,
+      70
+     ]
+    }
+   },
+   "gemma-4-31b|eksik=discount": {
+    "miss": [
+     0.0152,
+     0.0095,
+     0.0242
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     0.0042,
+     0.0021,
+     0.0087
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 7,
+    "workload_per_1000": 0.57,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      93
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      77
+     ],
+     "N_genel": [
+      1,
+      776
+     ],
+     "N_yakin": [
+      6,
+      308
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      2,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      0,
+      100
+     ],
+     "P_hata|D_ayni": [
+      2,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      5,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      89
+     ],
+     "P_sira|D_ayni": [
+      6,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      1,
+      70
+     ]
+    }
+   },
+   "qwen3.8-flash-next": {
+    "miss": [
+     0.0224,
+     0.0152,
+     0.0328
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     0.052,
+     0.0423,
+     0.0638
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 86,
+    "workload_per_1000": 7.05,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      1,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      93
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      77
+     ],
+     "N_genel": [
+      5,
+      776
+     ],
+     "N_yakin": [
+      80,
+      308
+     ],
+     "P_alias|D_ayni": [
+      1,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      2,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      2,
+      100
+     ],
+     "P_hata|D_ayni": [
+      5,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      1,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      4,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      1,
+      89
+     ],
+     "P_sira|D_ayni": [
+      1,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      4,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      3,
+      70
+     ]
+    }
+   },
+   "qwen3.8-flash-next|eksik=discount": {
+    "miss": [
+     0.0269,
+     0.0189,
+     0.0381
+    ],
+    "n_pos": 1117,
+    "fp_rate": [
+     0.0478,
+     0.0385,
+     0.0592
+    ],
+    "n_neg": 1653,
+    "escalated_neg": 79,
+    "workload_per_1000": 6.48,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      1,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      93
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      77
+     ],
+     "N_genel": [
+      3,
+      776
+     ],
+     "N_yakin": [
+      75,
+      308
+     ],
+     "P_alias|D_ayni": [
+      1,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      2,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      3,
+      100
+     ],
+     "P_hata|D_ayni": [
+      5,
+      98
+     ],
+     "P_hata|D_kucuk": [
+      4,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      4,
+      92
+     ],
+     "P_kiril_tr|D_kucuk": [
+      1,
+      89
+     ],
+     "P_sira|D_ayni": [
+      1,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      4,
+      68
+     ],
+     "P_tr_arap|D_kucuk": [
+      4,
+      70
+     ]
+    }
+   }
+  },
+  "FE": {
+   "R0_hepsi": {
+    "miss": [
+     0.0,
+     0,
+     0.0034
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     1.0,
+     0.9982,
+     1
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 2155,
+    "workload_per_1000": 176.64,
+    "cells": {
+     "N_adas_alias": [
+      100,
+      100
+     ],
+     "N_adas_exact": [
+      99,
+      99
+     ],
+     "N_adas_hata": [
+      100,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      97,
+      97
+     ],
+     "N_adas_sira": [
+      100,
+      100
+     ],
+     "N_adas_tr_arap": [
+      82,
+      82
+     ],
+     "N_genel": [
+      1250,
+      1250
+     ],
+     "N_yakin": [
+      327,
+      327
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      0,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      0,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      0,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      95
+     ],
+     "P_sira|D_ayni": [
+      0,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      0,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      0,
+      76
+     ]
+    }
+   },
+   "R1_kati": {
+    "miss": [
+     0.4908,
+     0.4618,
+     0.5198
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     0.1429,
+     0.1288,
+     0.1583
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 308,
+    "workload_per_1000": 25.25,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      97
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      82
+     ],
+     "N_genel": [
+      0,
+      1250
+     ],
+     "N_yakin": [
+      308,
+      327
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      100,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      99,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      99,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      95,
+      95
+     ],
+     "P_sira|D_ayni": [
+      0,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      98,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      68,
+      76
+     ]
+    }
+   },
+   "R2_politika": {
+    "miss": [
+     0.0351,
+     0.0259,
+     0.0475
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     0.1378,
+     0.1239,
+     0.153
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 297,
+    "workload_per_1000": 24.34,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      97
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      82
+     ],
+     "N_genel": [
+      0,
+      1250
+     ],
+     "N_yakin": [
+      297,
+      327
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      5,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      3,
+      100
+     ],
+     "P_hata|D_ayni": [
+      1,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      1,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      5,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      9,
+      95
+     ],
+     "P_sira|D_ayni": [
+      0,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      5,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      4,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      7,
+      76
+     ]
+    }
+   },
+   "deepseek-v4.1-flash": {
+    "miss": [
+     0.0184,
+     0.0121,
+     0.028
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     0.1188,
+     0.1058,
+     0.1331
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 256,
+    "workload_per_1000": 20.98,
+    "cells": {
+     "N_adas_alias": [
+      13,
+      100
+     ],
+     "N_adas_exact": [
+      4,
+      99
+     ],
+     "N_adas_hata": [
+      18,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      20,
+      97
+     ],
+     "N_adas_sira": [
+      9,
+      100
+     ],
+     "N_adas_tr_arap": [
+      7,
+      82
+     ],
+     "N_genel": [
+      121,
+      1250
+     ],
+     "N_yakin": [
+      64,
+      327
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      5,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      3,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      6,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      95
+     ],
+     "P_sira|D_ayni": [
+      1,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      5,
+      76
+     ]
+    }
+   },
+   "deepseek-v4.1-flash|eksik=discount": {
+    "miss": [
+     0.0202,
+     0.0135,
+     0.0301
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     0.0237,
+     0.018,
+     0.031
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 51,
+    "workload_per_1000": 4.18,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      97
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      82
+     ],
+     "N_genel": [
+      3,
+      1250
+     ],
+     "N_yakin": [
+      48,
+      327
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      5,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      3,
+      100
+     ],
+     "P_hata|D_ayni": [
+      0,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      6,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      0,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      95
+     ],
+     "P_sira|D_ayni": [
+      1,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      7,
+      76
+     ]
+    }
+   },
+   "gemma-4-31b": {
+    "miss": [
+     0.0167,
+     0.0107,
+     0.0259
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     0.0032,
+     0.0016,
+     0.0067
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 7,
+    "workload_per_1000": 0.57,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      97
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      82
+     ],
+     "N_genel": [
+      1,
+      1250
+     ],
+     "N_yakin": [
+      6,
+      327
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      2,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      0,
+      100
+     ],
+     "P_hata|D_ayni": [
+      2,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      5,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      1,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      95
+     ],
+     "P_sira|D_ayni": [
+      6,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      2,
+      76
+     ]
+    }
+   },
+   "gemma-4-31b|eksik=discount": {
+    "miss": [
+     0.0167,
+     0.0107,
+     0.0259
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     0.0032,
+     0.0016,
+     0.0067
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 7,
+    "workload_per_1000": 0.57,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      0,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      97
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      82
+     ],
+     "N_genel": [
+      1,
+      1250
+     ],
+     "N_yakin": [
+      6,
+      327
+     ],
+     "P_alias|D_ayni": [
+      0,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      2,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      0,
+      100
+     ],
+     "P_hata|D_ayni": [
+      2,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      5,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      1,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      0,
+      95
+     ],
+     "P_sira|D_ayni": [
+      6,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      0,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      2,
+      76
+     ]
+    }
+   },
+   "qwen3.8-flash-next": {
+    "miss": [
+     0.0228,
+     0.0156,
+     0.0332
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     0.0459,
+     0.0379,
+     0.0556
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 99,
+    "workload_per_1000": 8.11,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      1,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      97
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      82
+     ],
+     "N_genel": [
+      11,
+      1250
+     ],
+     "N_yakin": [
+      87,
+      327
+     ],
+     "P_alias|D_ayni": [
+      1,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      2,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      2,
+      100
+     ],
+     "P_hata|D_ayni": [
+      5,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      1,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      4,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      1,
+      95
+     ],
+     "P_sira|D_ayni": [
+      1,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      4,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      4,
+      76
+     ]
+    }
+   },
+   "qwen3.8-flash-next|eksik=discount": {
+    "miss": [
+     0.0272,
+     0.0192,
+     0.0384
+    ],
+    "n_pos": 1139,
+    "fp_rate": [
+     0.0399,
+     0.0324,
+     0.049
+    ],
+    "n_neg": 2155,
+    "escalated_neg": 86,
+    "workload_per_1000": 7.05,
+    "cells": {
+     "N_adas_alias": [
+      0,
+      100
+     ],
+     "N_adas_exact": [
+      1,
+      99
+     ],
+     "N_adas_hata": [
+      0,
+      100
+     ],
+     "N_adas_kiril_tr": [
+      0,
+      97
+     ],
+     "N_adas_sira": [
+      0,
+      100
+     ],
+     "N_adas_tr_arap": [
+      0,
+      82
+     ],
+     "N_genel": [
+      5,
+      1250
+     ],
+     "N_yakin": [
+      80,
+      327
+     ],
+     "P_alias|D_ayni": [
+      1,
+      100
+     ],
+     "P_alias|D_kucuk": [
+      2,
+      100
+     ],
+     "P_exact|D_ayni": [
+      0,
+      100
+     ],
+     "P_exact|D_kucuk": [
+      3,
+      100
+     ],
+     "P_hata|D_ayni": [
+      5,
+      99
+     ],
+     "P_hata|D_kucuk": [
+      4,
+      100
+     ],
+     "P_kiril_tr|D_ayni": [
+      4,
+      97
+     ],
+     "P_kiril_tr|D_kucuk": [
+      1,
+      95
+     ],
+     "P_sira|D_ayni": [
+      1,
+      100
+     ],
+     "P_sira|D_kucuk": [
+      1,
+      100
+     ],
+     "P_tr_arap|D_ayni": [
+      4,
+      72
+     ],
+     "P_tr_arap|D_kucuk": [
+      5,
+      76
+     ]
+    }
+   }
+  }
+ },
+ "llm": {
+  "deepseek-v4.1-flash": {
+   "tasks": 7383,
+   "answered": 7383,
+   "parsed": 7117,
+   "parse_rate": [
+    0.964,
+    0.9595,
+    0.968
+   ],
+   "latency_median_s": 9.4,
+   "in_tok_mean": 608.1,
+   "out_tok_mean": 103.9,
+   "tok_total": 5067519,
+   "dob_accuracy": [
+    0.9837,
+    0.9805,
+    0.9864
+   ],
+   "name_accuracy_own_entry": [
+    0.9733,
+    0.9653,
+    0.9796
+   ],
+   "decision_consistency": [
+    1.0,
+    0.9995,
+    1
+   ],
+   "served": {
+    "deepseek/deepseek-v4.1-flash": 7117
+   }
+  },
+  "gemma-4-31b": {
+   "tasks": 7383,
+   "answered": 7383,
+   "parsed": 7383,
+   "parse_rate": [
+    1.0,
+    0.9995,
+    1.0
+   ],
+   "latency_median_s": 1.41,
+   "in_tok_mean": 639.4,
+   "out_tok_mean": 73.9,
+   "tok_total": 5266702,
+   "dob_accuracy": [
+    0.9854,
+    0.9824,
+    0.9879
+   ],
+   "name_accuracy_own_entry": [
+    0.9892,
+    0.9836,
+    0.9928
+   ],
+   "decision_consistency": [
+    1.0,
+    0.9995,
+    1.0
+   ],
+   "served": {
+    "google/gemma-4-31b": 7383
+   }
+  },
+  "qwen3.8-flash-next": {
+   "tasks": 7383,
+   "answered": 7383,
+   "parsed": 7352,
+   "parse_rate": [
+    0.9958,
+    0.994,
+    0.997
+   ],
+   "latency_median_s": 2.49,
+   "in_tok_mean": 645.8,
+   "out_tok_mean": 100.9,
+   "tok_total": 5490083,
+   "dob_accuracy": [
+    0.983,
+    0.9798,
+    0.9857
+   ],
+   "name_accuracy_own_entry": [
+    0.9767,
+    0.9691,
+    0.9824
+   ],
+   "decision_consistency": [
+    0.9861,
+    0.9832,
+    0.9886
+   ],
+   "served": {
+    "qwen/qwen3.8-flash-next": 7352
+   }
+  }
+ },
+ "evren_credit": {
+  "0": {
+   "first": 1000.0,
+   "last": 1000.0,
+   "spent": 0.0,
+   "tokens": 18393547
+  }
+ }
+}

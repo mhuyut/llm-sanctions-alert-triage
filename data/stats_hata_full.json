@@ -1,0 +1,60 @@
+{
+ "deepseek-v4.1-flash": {
+  "n_pos": 1097,
+  "missed": 21,
+  "reason": {
+   "dob_conflict": 18,
+   "name_different": 3
+  },
+  "by_name": {
+   "P_alias": 5,
+   "P_hata": 6,
+   "P_sira": 2,
+   "P_exact": 3,
+   "P_tr_arap": 5
+  },
+  "by_dob": {
+   "D_kucuk": 20,
+   "D_ayni": 1
+  }
+ },
+ "qwen3.8-flash-next": {
+  "n_pos": 1097,
+  "missed": 24,
+  "reason": {
+   "inconsistent": 17,
+   "dob_conflict": 6,
+   "name_different": 1
+  },
+  "by_name": {
+   "P_tr_arap": 7,
+   "P_hata": 6,
+   "P_exact": 2,
+   "P_sira": 2,
+   "P_kiril_tr": 5,
+   "P_alias": 2
+  },
+  "by_dob": {
+   "D_ayni": 15,
+   "D_kucuk": 9
+  }
+ },
+ "gemma-4-31b": {
+  "n_pos": 1097,
+  "missed": 17,
+  "reason": {
+   "dob_conflict": 6,
+   "name_different": 11
+  },
+  "by_name": {
+   "P_alias": 2,
+   "P_sira": 7,
+   "P_hata": 7,
+   "P_tr_arap": 1
+  },
+  "by_dob": {
+   "D_kucuk": 9,
+   "D_ayni": 8
+  }
+ }
+}

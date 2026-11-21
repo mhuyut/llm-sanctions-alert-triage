@@ -1,0 +1,9 @@
+.api_key*
+__pycache__/
+*.pyc
+.DS_Store
+*.pid
+data/raw/*.xml
+data/raw/*.csv
+data/watchlist.jsonl
+data/emb_cache/
