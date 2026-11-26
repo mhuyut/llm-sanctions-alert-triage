@@ -19,3 +19,9 @@ preferred-citation:
       orcid: https://orcid.org/0000-0003-1812-6755
   year: 2026
   journal: "arXiv preprint"
+  doi: "10.48550/arXiv.2611.28914"
+  url: "https://arxiv.org/abs/2611.28914"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.28914"
+      description: "arXiv identifier (primary category cs.CL)"

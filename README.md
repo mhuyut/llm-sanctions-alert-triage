@@ -3,7 +3,8 @@
 Code, data and model outputs for the paper *Can Open LLMs Clear Sanctions-Screening Alerts? A
 Pre-registered Test on Public Sanctions Lists with Turkish Name Variants* (Mehmet Murat Huyut, arXiv 2026).
 
-Paper: arXiv link will be added after announcement.
+Paper: [arXiv:2611.28914](https://arxiv.org/abs/2611.28914) ([PDF](https://arxiv.org/pdf/2611.28914)),
+doi: [10.48550/arXiv.2611.28914](https://doi.org/10.48550/arXiv.2611.28914).
 
 > **All customer data in this package are synthetic. No bank data and no real customer data were used
 > at any stage.** The only real-world input is the public, officially published UK and EU sanctions
@@ -96,4 +97,14 @@ See `LICENSE`. The official sanctions lists keep their own terms (above).
 
 ## Citation
 
-See `CITATION.cff`.
+```bibtex
+@article{huyut2026sanctions,
+  title   = {Can Open {LLMs} Clear Sanctions-Screening Alerts? A Pre-registered Test on Public Sanctions Lists with {Turkish} Name Variants},
+  author  = {Huyut, Mehmet Murat},
+  journal = {arXiv preprint arXiv:2611.28914},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2611.28914}
+}
+```
+
+See also `CITATION.cff`.
